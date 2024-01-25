@@ -1,0 +1,20 @@
+name: tenpy-add-op-test
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - black
+  - bottleneck
+  - cython>=0.29
+  - libblas[build=*mkl]
+  - line_profiler
+  - mkl
+  - mkl-devel
+  - numpy>=1.23
+  - physics-tenpy=0.10
+  - pip
+  - python=3.11
+  - pyyaml
+  - scipy>=1.7
+  - setuptools>=42
+  - snakeviz
